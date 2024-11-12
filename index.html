@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Utilities</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Text Utilities</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Text Utility Tools</h1>
+        <textarea id="inputText" placeholder="Enter your text here"></textarea>
+        <div class="buttons">
+            <button class="button-primary" onclick="paraphraseText()">Paraphrase</button>
+            <button class="button-secondary" onclick="checkPlagiarism()">Plagiarism Check</button>
+            <button class="button-tertiary" onclick="checkGrammar()">Grammar Check</button>
+            <button class="button-quaternary" onclick="summarizeText()">Summarize</button>
+        </div>
+        <div id="output" class="output"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Text Utilities. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
